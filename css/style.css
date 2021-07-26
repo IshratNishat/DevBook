@@ -1,0 +1,588 @@
+/*Google Fonts integrete*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand', sans-serif;
+}
+
+a,span,p,input{
+	font-family: 'Roboto', sans-serif;
+}
+ /*Header part CSS*/
+.header{
+	padding: 20px;
+	background-color: white;
+}
+.header img{
+	vertical-align: middle;
+}
+.header span{
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+/* Banner  part CSS*/
+.banner{
+	width: 100%;
+	    height: 90vh;	
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 25px; 
+        margin-bottom: 50px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.banner .left{
+
+    margin-top: 35px;
+}
+
+.banner h1{
+	font-size: 43px;
+    margin-bottom: 10px;
+}
+.banner p{
+	
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #4c527d;
+}
+.banner button{
+	margin: 30px 0;
+}
+.buy-button{
+	padding: 20px 55px;
+    border-radius: 42px;
+    background-color: #ed6524;
+    border: none;
+    color: white;
+    border: 4px solid #ed6524;
+    font-size: 18px;
+    font-weight: 600;
+}
+.learn-button{
+	padding: 20px 55px;
+	color: #ed6524;
+    border-radius: 42px;
+    background-color: white;
+    border: 4px solid #ed6524;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+.banner .learn-button:hover{
+	color: white;
+	background-color: #ed6524;
+	transition: 0.5s ease-in-out;
+
+}
+
+.testimonial{
+	width: 100%;
+	margin: 22px 0;
+
+}
+.messege{
+	height: 150px;
+	width: 100%;
+    background: #f6f4fc;
+    border-left:4px solid #f5a782;
+    position: relative;
+}
+.corner-box{
+	background: #f6f4fc;
+	height: 35px;
+	width: 35px;
+	position: absolute;
+    bottom: -15px;
+    left: 25px;
+    transform: rotate(45deg);
+}
+.messege p{
+	font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 45px;
+}
+.banner .user{
+	width: 100%;
+	height: 70px;
+	margin-top: 25px;
+}
+.col-15{
+	width: 15%;
+	float: left;
+}
+.user img{
+	width: 70px;
+    margin-left: -15px;
+}
+
+.col-85{
+	width: 85%;
+    float: right;
+    color: #4c527d;
+    padding-right: 18px;
+    margin-top: -73px;
+}
+
+.user-name p{
+	font-size: 16px;
+    line-height: 0px;
+    margin-bottom: -20px;
+    padding-top: 22px;
+    padding: 21px 12px;
+}
+
+ /*Banner book picture Right part*/
+
+.banner .right{
+	float: right;
+}
+.banner-book img{
+	margin-left: 75px;
+}
+.see-all{
+	width: 100%;
+	margin-left: 245px;
+    margin-top: -5%;
+    padding: 20px 0;
+}
+
+.see-all a:hover{
+	color: #ed6524;
+}	
+
+.right-top{
+	position: relative; 
+}
+.circle-new{
+	height: 113px;
+    width: 150px;
+    background: mediumseagreen	;
+    border-radius: 60%;
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    right: -12px;
+    top: -54px;
+    padding-top: 44px;
+    box-shadow: 5px 4px 23px -8px #000000;
+
+}
+
+
+/*First part complete here*/
+
+/*Six Icons 2nd part start here*/
+.service{
+	width: 100%;
+	height: 100vh;
+    margin-top: 50px;
+	background-color: #f6f8fc 0%, #fff 70% !important;
+
+}
+
+.service-body{
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	
+}
+.col{
+	width: 33.33%;
+	float: left; 
+}
+
+.service-title{
+	text-align: center;
+    margin-bottom: 9px;
+    margin-top: -82px;
+	
+}
+
+.service-title h1{
+	font-size: 35px; 
+	margin-top: 130px;
+	margin-bottom: 18px;
+}
+.service-title p{
+	font-size: 18px;
+    line-height: 26px;
+    color: #4c527d;
+}
+.item{
+	text-align: center;
+	padding: 30px;
+}
+.item h3{
+	margin: 15px 0;
+}
+.item p{
+   font-size: 17px;
+   color: #4c527d;
+   line-height: 23px;
+}
+
+/*2nd part end here*/
+
+
+/*3rd part starts here*/
+
+.item-section{
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+
+.item-section .item-title{
+	text-align: center;
+}
+
+.item-title h1{
+	 
+	margin: 15px 0;
+	font-size: 40px;
+    line-height: 100px;
+    padding-bottom: 100px;
+}
+.item-body{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.col-5{
+	width: 50%;
+	float: left;
+}
+
+.item-img{
+	margin: -25px 0;
+    padding: 10px;
+}
+.item-text{
+	padding-left: 45px;
+}
+.item-text ul{
+	font-size: 25px;
+}
+
+.item-text ul li{
+	list-style: none;
+	color: #4c527d;
+	margin-bottom: 15px;
+}
+
+.item-text ul li i{
+     color: #7FCDBB;
+     margin-right: 10px;
+}
+
+.want-button{
+	padding: 20px 55px;
+    border-radius: 42px;  
+    border: none;
+    color: white;
+    border: 4px solid #ed6524;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.item-text button{
+	background-color: #ed6524;
+	font-size: 18px;
+	color: white;
+}
+
+/*tablet part CSS ends here*/
+
+/*4th part CSS starts*/
+.alltext {
+	width: 100%;
+	height: auto;
+	
+}
+.alltext-title{
+	text-align: center;
+	height: 200px;
+	margin-top: 100px;
+}
+.alltext-title h1{
+	font-size: 40px;
+	line-height: 100px;
+}
+.alltext-title p{
+	padding: 0 196px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #4c527d;
+}
+
+.middle-part{
+	    padding-top: 420px;
+}
+.middle-part ul{
+	list-style: none; 
+}
+
+.alltext-body ul{
+	padding-left: 367px;
+    padding-top: 30px;
+   
+}
+.middle-part ul li i{
+	color: #7FCDBB;
+    margin-right: 10px;
+}
+
+.middle-part ul li p{
+	color: #4c527d; 
+	margin-left: 25px;
+	line-height: 23px;
+	font-size: 19px;
+}
+.middle-part span{
+	font-weight: 500;
+	line-height: 30px;
+	font-size: 21px;
+}
+
+/*4th part CSS ends*/
+
+
+
+/*email box part start here*/
+.subscribe{
+	width: 100%;
+	padding: 100px 0;
+}
+.sub-body{
+	margin-left: 70px;
+}
+.sub-box{
+	background-color: #f6f8fc;
+	height: 150px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	border-radius: 6px;
+	transition: all 0.5s ease-in-out;
+}
+.sub-box:hover{
+	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.5);
+	transition: all 0.5s ease-in-out;
+}
+
+.sub-box p{
+	color: #4c527d;
+	margin: 12px;
+	line-height: 24px;
+	font-size: 18px;
+}
+.email-input{
+	width: 70%;
+    padding: 13px 7px;
+    border-radius: 4px;
+    border: none;
+}
+.email-input:focus{
+	outline-color: #ed6524;
+}
+
+.send-button{
+	padding: 12px 18px;
+	background-color: #ed6524;
+	font-weight: 600;
+	color: white;
+	border: #ed6524;
+	border-radius: 4px;
+    font-size: 13px;
+}
+
+/*email part CSS ends here*/
+
+/*book review section CSS Starts here*/
+
+.book-review{
+	width: 100%;
+	height: auto;
+}
+
+.book-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.book-title h1{
+	font-size: 40px;
+	line-height: 75px;
+}
+
+.book-title p{
+	color: #4c527d;
+	font-size: 22px;
+}
+
+.reviews-01{
+	width: 100%;
+	float: left;
+	margin-top: 70px;
+}
+
+.review-box{
+	height: 190px;
+    width: 350px;
+    background: #f6f8fc;
+    margin: 0 12px;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 3px;
+    border-radius: 6px;
+	transition: all 0.5s ease-in-out;
+}
+.review-box:hover{
+	box-shadow: 0px 8px 22px 0px rgba(0,0,0,0.5);
+	transition: all 0.5s ease-in-out;
+}
+
+.review-msg p{
+/*	margin-bottom: 15px !important;*/
+	font-size: 18px !important;
+	padding: 20px 5px !important;
+}
+
+.user-name p{
+	padding-left: 25px;
+}
+
+.comma{
+	list-style: none;
+    background-color: #f5a782;
+    color: white;
+    position: absolute;
+    top: -18px;
+    left: 160px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 51px;
+    line-height: 40px;
+}
+
+
+.review-02{
+	width: 100%;
+	float: left;
+	margin-top: 70px;
+}
+
+.space{
+	margin: 0 150px;
+}
+
+.get-copy button{
+    padding: 22px 38px;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    background-color: #ed6524;
+    border: 4px solid #ed6524;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 45px 400px;
+    font-size: 18px;
+}
+
+/*author Part CSS ends here*/
+
+.author{
+	padding: 100px 0;
+	background-color: #ed6524;
+	text-align: center;
+}
+
+.author-img img{
+	width: 200px;
+	margin-bottom: 30px;
+	margin-top: -40px;
+}
+.user-profile h1{
+	color: white;
+	font-size: 40px;
+}
+
+.user-profile p{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 100px;
+	margin: 30px 0;
+	line-height: 32px;
+}
+.follow-part h2{
+	color: white;
+	font-size: 28px;
+}
+
+
+.last-icons ul{
+	list-style: none;
+}
+.last-icons ul li{
+	display: inline-block;
+}
+.last-icons ul li i{
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background-color: #d55b20;
+	border-radius: 100%;
+	line-height: 40px;
+	color: white;
+	margin: 0 10px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 23px;
+}
+/*Author part ends here*/
+
+/*Footer part CSS starts*/
+.footer{
+	width: 100%;
+	height: 100px;
+}
+
+.footer p{
+	text-align: center;
+	padding: 50px 0;
+    font-size: 18px;
+    color: #4c527d;
+}
+
+.footer p i{
+	color: #f5a782;
+}
+/* footer part CSS ends here*/
